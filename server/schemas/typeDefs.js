@@ -1,3 +1,5 @@
+const { gql } = require('graphql-tag');
+
 module.exports = gql`
   type User {
     _id: ID
